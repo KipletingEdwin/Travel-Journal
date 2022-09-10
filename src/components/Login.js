@@ -9,6 +9,17 @@ function Login() {
     function handleInput(event){
       setFormData1({...formData1,[event.target.name]:event.target.value});
       console.log(formData1)
+    }
+
+    function handlePost(e){
+      e.preventDefault()
+      if (
+        formData1.username === "" ||
+        formData1.password === ""
+      ){
+        alert("Please,fill in all fiels")
+      } else 
+      fetch("")
 
     }
     
