@@ -4,7 +4,7 @@ import React, {useState } from 'react';
 import NewEvent from './newevent';
 import Journal from './journal';
 import JournalContainer from './journalcontainer';
-// import Login from './Login';
+import Login from './Login';
 
 
 function App() {
@@ -86,7 +86,7 @@ function App() {
     <div className="App">
      <div className="App2">
     
-      {/* <Login/> */}
+      <Login/>
       <NewEvent handleChange={handleChange}
          handleSubmit={handleSubmit}
          />
