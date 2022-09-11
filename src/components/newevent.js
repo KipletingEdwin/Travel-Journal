@@ -39,7 +39,6 @@ function NewEvent({handleChange,handleSubmit}){
                
                 {/* <input type="file"
                 name="image_url"
-                placeholder="image_url"
                 onChange={handleChange}
                 ></input> */}
                

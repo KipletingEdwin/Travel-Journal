@@ -13,6 +13,7 @@ function App() {
         town: "",
         date: "",
         description: "",
+       
       
     })
  
@@ -42,13 +43,6 @@ function App() {
       window.location.reload(false);
     }
 
-
-
-    // useEffect(() =>{
-    //   fetch("http://localhost:9292/details")
-    //   .then((r) => r.json())
-    //   .then((data) =>setInfo(data));
-    // });
     
     function handleSubmit(e){
       e.preventDefault();
@@ -57,6 +51,7 @@ function App() {
            formData.town === "" ||
            formData.date === "" ||
            formData.description === "" 
+         
          ){
            alert("Please fill in all fields");
          } else {
@@ -76,17 +71,18 @@ function App() {
         town: "",
         date: "",
         description: "",
-        
-     
+       
       });
      }
    }
+
+
 
   return (
     <div className="App">
      <div className="App2">
     
-      <Login/>
+      {/* <Login/> */}
       <NewEvent handleChange={handleChange}
          handleSubmit={handleSubmit}
          />

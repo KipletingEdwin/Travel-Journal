@@ -14,7 +14,7 @@ function JournalContainer({handleDeleteClick}){
        const allData=info.map((allData) =>{
         //    console.log(allData)
         return(
-        // <h3>hello</h3>
+          
         <Journal
         town_name={allData.town}
         country_name={allData.country}
