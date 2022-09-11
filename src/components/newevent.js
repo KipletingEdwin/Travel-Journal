@@ -3,21 +3,6 @@ import React from "react";
 
 
 function NewEvent({handleChange,handleSubmit}){
-    // const[formData,setFormData] = useState({
-    //     country: "",
-    //     town: "",
-    //     date: "",
-    //     description: "",
-    //     user_id: "",
-    //     image_url: ""
-    // })
-
-    // function handleChange(e){
-    //     setFormData({...formData,[e.target.name]: e.target.value});
-    //     console.log(formData)
-    // }
-
-
     return(
         <div className="New_form">
             <form>
