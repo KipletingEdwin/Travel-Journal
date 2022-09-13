@@ -32,7 +32,7 @@ function JournalContainer({handleDeleteClick}){
       <div>{allData}</div>
     // <Journal
     // town_name={allData.town}
-    // />
+  
     
     )
 
