@@ -81,7 +81,6 @@ function App() {
     <div className="App">
      <div className="App2">
     
-      {/* <Login/> */}
       <NewEvent handleChange={handleChange}
          handleSubmit={handleSubmit}
          />
