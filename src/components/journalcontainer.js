@@ -6,7 +6,7 @@ function JournalContainer({handleDeleteClick}){
     const[info,setInfo] = useState([]);
 
     useEffect(() =>{
-        fetch("http://localhost:9292/details")
+        fetch("https://traveldiary-backend-app.herokuapp.com/details")
         .then((r) => r.json())
         .then((data) =>setInfo(data));
       },[]);

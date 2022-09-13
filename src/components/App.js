@@ -4,7 +4,7 @@ import React, {useState } from 'react';
 import NewEvent from './newevent';
 import Journal from './journal';
 import JournalContainer from './journalcontainer';
-import Login from './Login';
+// import Login from './Login';
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
   }
     
     function handleDeleteClick(id){
-      fetch(`http://localhost:9292/details/${id}`,{
+      fetch(`https://traveldiary-backend-app.herokuapp.com/details/${id}`,{
         method: "DELETE",
       })
       .then((res) =>res.json())
@@ -55,7 +55,7 @@ function App() {
          ){
            alert("Please fill in all fields");
          } else {
-      fetch("http://localhost:9292/details",{
+      fetch("https://traveldiary-backend-app.herokuapp.com/details",{
         method: "POST",
         headers:{
           "Content-Type":"application/json"
