@@ -1,7 +1,6 @@
 import React from "react";
 
 
-
 function NewEvent({handleChange,handleSubmit}){
     return(
         <div className="New_form">
@@ -26,11 +25,7 @@ function NewEvent({handleChange,handleSubmit}){
                 placeholder="Date"
                 ></input>
 
-                {/* <input type="text"
-                 name="user_id"
-                 onChange={handleChange}
-                placeholder="user_id"
-                ></input> */}
+             
 
                 <textarea placeholder="Enter a short description"
                  name="description"
