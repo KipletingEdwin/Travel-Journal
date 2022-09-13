@@ -30,10 +30,6 @@ function JournalContainer({handleDeleteClick}){
     
     return(
       <div>{allData}</div>
-    // <Journal
-    // town_name={allData.town}
-  
-    
     )
 
 }
