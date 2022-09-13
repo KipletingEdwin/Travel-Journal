@@ -22,7 +22,7 @@ function App() {
 
     function handleChange(e){
       setFormData({...formData,[e.target.name]: e.target.value});
-      // console.log(formData)
+      
   }
     
     function handleDeleteClick(id){
