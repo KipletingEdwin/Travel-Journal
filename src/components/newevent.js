@@ -32,11 +32,7 @@ function NewEvent({handleChange,handleSubmit}){
                  onChange={handleChange}
                 ></textarea>
                
-                {/* <input type="file"
-                name="image_url"
-                onChange={handleChange}
-                ></input> */}
-               
+              
                 {/* <input type="image"></input> */}
                 {/* <img></img> */}
             </form>
