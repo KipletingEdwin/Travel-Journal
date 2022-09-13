@@ -13,11 +13,15 @@ function NewEvent({handleChange,handleSubmit}){
                 placeholder="Country"
                 ></input>
 
+
+
                 <input type="text"
                  name="town"
                  onChange={handleChange}
                 placeholder="City"
                 ></input>
+
+                
 
                 <input type="date"
                  name="date"
