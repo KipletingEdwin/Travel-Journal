@@ -12,7 +12,7 @@ function JournalContainer({handleDeleteClick}){
       },[]);
   
        const allData=info.map((allData) =>{
-        //    console.log(allData)
+        
         return(
           
         <Journal
