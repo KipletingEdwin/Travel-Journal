@@ -1,10 +1,10 @@
-// import logo from './logo.svg';
+
 import '../App.css';
 import React, {useState } from 'react';
 import NewEvent from './newevent';
 import Journal from './journal';
 import JournalContainer from './journalcontainer';
-// import Login from './Login';
+
 
 
 function App() {
@@ -75,7 +75,6 @@ function App() {
       });
      }
    }
-
 
 
   return (
