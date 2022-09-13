@@ -32,9 +32,6 @@ function NewEvent({handleChange,handleSubmit}){
                  onChange={handleChange}
                 ></textarea>
                
-              
-                {/* <input type="image"></input> */}
-                {/* <img></img> */}
             </form>
             <button onClick={handleSubmit} >Create New Event</button>
 
