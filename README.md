@@ -8,9 +8,12 @@ This is a web based application that allow users to keep records of the places o
 
 
 ## ScreenShot
-Screenshot from 2022-09-14 23-12-05.png
 
-Screenshot from 2022-09-14 23-13-07.png
+
+![Screenshot from 2022-09-14 23-12-05.png]
+
+
+![Screenshot from 2022-09-14 23-13-07.png]
 
 ##  Technologies Used
 
