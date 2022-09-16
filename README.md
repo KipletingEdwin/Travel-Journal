@@ -36,7 +36,7 @@ This is a web based application that allow users to keep records of the places o
 
 ## Backend Repo Link
 
-Here is the backend repo link - ( https://traveldiary-backend-app.herokuapp.com/details )
+Here is the backend repo link - ( https://github.com/KipletingEdwin/phase-3-sinatra-react-project )
 
 
 
